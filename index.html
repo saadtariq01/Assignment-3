@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    <p id="test"></p>
+    <script>
+        // Create a prompt to ask the user's age
+        age = prompt("Enter Your age");
+        console.log(age);
+        // Declare a message variable that you will use to hold the console message for the user
+        let x = 4; 
+        let y = 2;
+        let z = x * y;
+        let result = eval(z); 
+        document.getElementById("test").innerHTML = result;
+        //If the input age is equal to or greater than 21, set the message variable to confirm entry to a venue and the ability to purchase alcohol
+        let age = prompt("Whats your age");
+        age = Number(age);
+        if (age>=21){
+            console.log("You can enter the venue and purchase alcohol");
+             //If the input age is equal to or greater than 19, set the message variable to confirm entry to the venue but deny the purchase of alcohol
+        }else if  (age >= 19) {
+            console.log("You can enter the venue but cannot purchase alcohol");
+            //Provide a default else statement to set the message variable to deny entry if none are true
+        } else {
+            alert("You cannot enter the venue or purchase alcohol");
+        }
+        // Output the response message variable to the console
+        //Yes its response in console
+        //2. Task 2 
+        //Make a age calculator by taking user birth year
+        let DOB = prompt("Whats your date of birth (YYYY-MM-DD)");
+        console.log(DOB);
+        //3. Task 3
+        //Take a mathematical expression from user and calculate it and show the result hint: use Math.eval()
+        let num1 = prompt("Enter a number");
+        let num2 = prompt("Enter a number");
+        num1 = Number(num1);
+        num2 = Number(num2);
+        let z0 = num1 / num2;
+        let z1 = num1 * num2;
+        let z2 = num1 + num2;
+        let z3 = num1 - num2;
+        console.log(z0);
+        console.log(z1);
+        console.log(z2);
+        console.log(z3);
+
+     
+    </script>
+</body>
+</html>
